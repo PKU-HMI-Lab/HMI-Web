@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* top */
+.top {
+    position: fixed;
+	margin:0 auto;
+    width: 100%;
+	height:146px;
+	background-color:#fff;
+	border-bottom:2px solid #eee; 
+	z-index:99;
+}
+.tp1 {
+	position:relative;
+	margin:0 auto;
+    width: 100%;
+	height:auto;
+	background-color:#fafafa;
+}
+.tp2 {
+	position:relative;
+	margin:0 auto;
+    width: 1200px;
+	height:32px;
+}
+.wel {
+	position: absolute;
+	margin:0 auto;
+	width: 300px;
+	float:left;
+	text-align:left;
+	color: #8a8a8a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.email {
+	position: absolute;
+	margin:0 auto 0 1003px;
+	width: 200px;
+	float:left;
+	text-align:right;
+	color: #0d8eeb;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.topmenu {
+	position:relative;
+	margin:0 auto;
+    width: 1200px;
+	height:112px;
+}
+.logo {
+	position: absolute;
+	margin:15px auto;
+	width:85px;
+	height:62px;
+	float:left;
+	color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+	}
+
+.menu {
+	position: absolute;
+	margin:0 auto 0 100px;
+	width: 1100px;
+	height:auto;
+	float:right;
+	color: #c1b5b5;
+	font-size:16px;
+    font-weight: 600;
+	line-height:150px;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	}
+.menu a{ text-decoration:none;color:#535353;font-size:15px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;} 
+.menu a:hover { text-decoration:none;color:#C1BFB5;font-size:15px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;border-bottom:1px solid #C1BFB5;}
+.ban {
+    position: relative;
+	margin:0 auto;
+    width: 100%;
+	height:148px;
+}
+
+/* lab */
+.labtitle {
+    position: relative;
+	margin:55px auto 15px auto;
+	width:300px;
+	height:auto;
+	text-align:center;
+}
+.labtitle a{ text-decoration:none;color:#0ABAB5;font-size:22px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;} 
+.labtitle a:hover { text-decoration:none;color:#0ABAB5;font-size:22px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;border-bottom:1px solid #0ABAB5;}
+.labcontent {
+    position: relative;
+	margin:0 auto 40px auto;
+	width:1200px;
+	height:auto;
+	color: #535353;
+    font-size: 15px;
+	text-align:justify;
+	text-indent:2em;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/* leader */
+.leaderline {
+    position: relative;
+    margin: 40px auto;
+    width: 1200px;
+	height:395px;
+    overflow: hidden;
+}
+.leaderL {
+	position: relative;
+	margin:0 auto;
+	width:320px;
+	height:395px;
+	float:left;
+	overflow: hidden;
+}
+.leaderR {
+	position: relative;
+	margin:0 auto;
+	width:820px;
+	height:395px;
+	float:right;
+	overflow: hidden;
+}
+
+.leadertitle {
+    position: relative;
+	margin:2px auto 0 0;
+	width:300px;
+	height:auto;
+}
+.leadertitle a{ text-decoration:none;color:#0ABAB5;font-size:22px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;} 
+.leadertitle a:hover { text-decoration:none;color:#0ABAB5;font-size:22px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;border-bottom:1px solid #0ABAB5;}
+.leadercontent {
+    position: relative;
+	margin:20px auto;
+	width:820px;
+	height:auto;
+	color: #535353;
+    font-size: 15px;
+	text-align:justify;
+	text-indent:2em;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+/* research */
+.directitle {
+    position: relative;
+	margin:60px auto 20px auto;
+	color: #0d8eeb;
+	width:1200px;
+	height:auto;
+    font-size: 22px;
+	text-align:center;
+    font-weight: 600;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.direcimg {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+	height:auto;
+	text-align:center;
+    overflow: hidden;
+}
+.directt1 {
+    position: relative;
+    line-height: 30px;
+}
+.directt1 a{ text-decoration:none;color:#454545;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;} 
+.directt1 a:hover { text-decoration:none;color:#0ABAB5;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;border-bottom:1px solid #0ABAB5;}
+.directt2 {
+    position: relative;
+    line-height: 30px;
+}
+.directt2 a{ text-decoration:none;color:#454545;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;} 
+.directt2 a:hover { text-decoration:none;color:#055bc4;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;border-bottom:1px solid #055bc4;}
+.directt3 {
+    position: relative;
+    line-height: 30px;
+}
+.directt3 a{ text-decoration:none;color:#454545;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;} 
+.directt3 a:hover { text-decoration:none;color:#d15818;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:600;border-bottom:1px solid #d15818;}
+.direcontent {
+    position: relative;
+	color: #686868;
+    font-size: 15px;
+	text-align:justify;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+/* projects */
+.proimg {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+	height:380px;
+    overflow: hidden;
+}
+/* news */
+.newsbg {
+	background:#363636;
+    position:relative;
+    overflow: hidden;
+	width:100%;
+	height:390px;
+}
+.news {
+    position:relative;
+    overflow: hidden;
+    margin: 0 auto 50px auto;
+	width:1200px;
+}
+.newstitle {
+    position: relative;
+	color: #c7c7c7;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.newsmore {
+    position: relative;
+}
+.newsmore  a{ text-decoration:none;color:#c7c7c7;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;} 
+.newsmore  a:hover { text-decoration:none;color:#f5f5f5;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;border-bottom:1px solid #f5f5f5;}
+
+.newscontent {
+    position: relative;
+	text-align:left;
+	text-align:justify;
+    line-height: 20px;
+}
+.newscontent  a{ text-decoration:none;color:#f5f5f5;font-size:15px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;} 
+.newscontent  a:hover { text-decoration:none;color:#f5f5f5;font-size:15px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;border-bottom:1px solid #f5f5f5;}
+
+
+
+.ns { width: 255px; height: 197px; background: #363636; margin: 0 auto; padding-left: 0px; padding-top: 0px; }
+.ns a{ text-decoration:none;color:#fff;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;} 
+.ns a:hover { text-decoration:none;color:#f9f9f9;font-size:16px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;border-bottom:1px solid #f9f9f9;}
+.ns ul li { width: 255px; height: 197px; float: left; position: relative; overflow: hidden; cursor: pointer; }
+.nstxt { width: 255px; height: 50px; background:#333; background: rgba(0,0,0,0.6);/*透明背景色，不透明其文字内容*/ position: absolute; left: 0; bottom: 0; color: #fff; font-family: "微软雅黑"; }
+.nstxt h3 { font-size:16px;font-weight:400;height:50px;text-align: center;line-height:24px;}
+.bottom {
+	text-align:center;
+	color: #f5f5f5;
+    font-size: 15px;
+    font-weight: 400;
+	line-height:50px;
+    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
