@@ -24,7 +24,21 @@
       s.parentNode.insertBefore(hm, s);
     })();
   </script>
-
+  <link rel="icon" href="./index_files/logo_1.jpeg" type="image/png">
+  <link rel="shortcut icon" href="./index_files/logo_1.jpeg" type="image/png">
+  <link rel="stylesheet" href="./index_files/style.css">
+  <link rel="stylesheet" href="./index_files/lrtk.css">
+  <script type="text/javascript" src="./index_files/jquery.js"></script>
+  <script type="text/javascript" src="./index_files/lrtk.js"></script>
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?d46d812474bd8517a73135c4ec1ceae5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
   <style type="text/css">
     <!--
     .list1 {
@@ -50,8 +64,17 @@
     }
 
     p {
-      margin: 10px 0 10px 0;
+      margin: 10px 0 20px 0;
       padding: 0;
+    }
+
+    div img {
+      cursor: pointer;
+      transition: all 0.6s;
+    }
+
+    div img:hover {
+      transform: scale(1.05);
     }
     -->
   </style>
@@ -61,36 +84,72 @@
 <body>
   <!-- menu -->
   <div class="top">
-
+    
     <div class="topmenu">
-      <div class="logo">
+      <div class="logo" style="margin-top: 30px;">
         <table width="85px" border="0" cellspacing="8" cellpadding="0">
           <tbody>
             <tr>
-              <td align="center"><img src="./index_files/logo_1.jpeg" width="80" height="58"></td>
+              <td align="center"><img src="./index_files/logo_1.jpeg" width="80" height="50"></td>
             </tr>
             <tr>
-              <td align="center">HMI Lab</td>
+              <td align="center" style="font-size: 1.2em; color: #333; font-weight: bold;">HMI Lab</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <div class="menu">
-        <table width="930px" border="0" cellspacing="5" cellpadding="20">
-          <tbody>
-            <tr>
-              <td width="44px"><a href="./index.html">Home</a></td>
-              <td width="143px" align="right"><a href="./about.html">About our Lab</a></td>
-              <td width="165px" align="right">About our Leader</a></td>
-              <td width="76px" align="right"><a href="./people.html">People</a></td>
-              <td width="178px" align="right"><a href="./research.html">Research Directions</a></td>
-              <td width="110px" align="right"><a href="./publications.html">Publications</a></td>
-              <td width="85px" align="right"><a href="./projects1.html">Projects</a></td>
-              <td width="82px" align="right"><a href="./join.html">Join us</a></td>
-              <td width="71px" align="right"><a href="./news.html">News</a></td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="menu" style="margin-top: 50px;">
+        <div style="display: flex; justify-content: space-around; width: 100%; background-color: #fff; padding: 2px 0;">
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./index.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>首页</span>
+              <span>Homepage</span>
+            </a>
+          </div>
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./leader.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>首席研究员</span>
+              <span>Principal Investigator</span>
+            </a>
+          </div>
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./about.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>实验室概况</span>
+              <span>Overview</span>
+            </a>
+          </div>
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./people.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>人才队伍</span>
+              <span>People</span>
+            </a>
+          </div>
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./research.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>科研方向</span>
+              <span>Research Directions</span>
+            </a>
+          </div>
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./publications.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>论文发表</span>
+              <span>Publications</span>
+            </a>
+          </div>
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./join.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>加入我们</span>
+              <span>Join Us</span>
+            </a>
+          </div>
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./news.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>新闻热点</span>
+              <span>News</span>
+            </a>
+          </div>
+          <img src="./join/pku_.png" width="60" height="60" style="margin-left: 10px;">
+        </div>
       </div>
     </div>
   </div>
@@ -106,7 +165,7 @@
             <tbody>
               <tr>
                 <td>
-                  <div class="listitle">About our leader</div>
+                  <div class="listitle">Shanghang Zhang - Principal Investigator</div>
                 </td>
               </tr>
             </tbody>
@@ -115,6 +174,7 @@
       </tr>
     </tbody>
   </table>
+
   <!-- content -->
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -131,45 +191,28 @@
                       <li class="ad1" style="display: list-item; background-position: 951px 0px;"></li>
                       <li class="ad2" style="background-position: 951px 0px;"></li>
                       <li class="ad3" style="background-position: 951px 0px;"></li>
-                      <p class="text" style="color: rgb(255, 255, 255);">Be Confident !</p>
+                      <p class="text" style="color: rgb(255, 255, 255);">Photo desc1</p>
                       <div class="textbg"></div>
                     </ul>
                     <ul class="inbox">
                       <li class="ad1" style="display: list-item; background-position: 634px 0px;"></li>
                       <li class="ad2" style="background-position: 634px 0px;"></li>
                       <li class="ad3" style="background-position: 634px 0px;"></li>
-                      <p class="text">With My Doctoral Superviser Vijay N.</p>
+                      <p class="text">Photo desc2</p>
                       <div class="textbg"></div>
                     </ul>
                     <ul class="inbox">
                       <li class="ad1" style="display: list-item; background-position: 317px 0px;"></li>
                       <li class="ad2" style="background-position: 317px 0px;"></li>
                       <li class="ad3" style="background-position: 317px 0px;"></li>
-                      <p class="text">Supercomputing Center</p>
+                      <p class="text">Photo desc3</p>
                       <div class="textbg"></div>
                     </ul>
                   </div>
                   <div class="content2"><br>
                     <p><span style="color:#16a085; font-weight:bold; font-size:18px;">Bio:</span></p>
                     <p>
-                      Dr. Shanghang Zhang is a Tenure Track Assistant Professor at the School of Computer Science,
-                      Peking University.
-                      She has been the postdoc research fellow at Berkeley AI Research Lab (BAIR), UC Berkeley.
-                      Her research focuses on OOD Generalization that enables the machine learning systems to generalize
-                      to new domains, categories,
-                      and modalities using limited labels, with applications to autonomous driving and robotics, as
-                      reflected in her over 50 papers
-                      on top-tier journals and conference proceedings (Google Scholar Citations: 4321, H-index: 28,
-                      I10-index: 38).
-                      She has also been the author and editor of the book “Deep Reinforcement Learning: Fundamentals,
-                      Research and Applications”
-                      published by Springer Nature. This book is selected to Annual High-Impact Publications in Computer
-                      Science by Chinese researchers
-                      and its Electronic Edition has been downloaded 150,000 times worldwide.
-                      Her recent work “Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting”
-                      has received the AAAI 2021 Best Paper Award. It ranks the 1st place of Trending Research on
-                      PaperWithCode
-                      and its Github receives 3,300+ Stars.</p>
+                      Dr. Shanghang Zhang is a Tenure Track Assistant Professor at the Computer Science Department of Peking University. She has been the postdoc research fellow at Berkeley AI Research Lab (BAIR), EECS, UC Berkeley. Her research focuses on OOD Generalization that enables the machine learning systems to generalize to new domains, categories, and modalities using limited labels, with applications to autonomous driving and robotics, as reflected in her over 40 papers on top-tier journals and conference proceedings (Google Scholar Citations: 13366, H-index: 42, I10-index: 98). Her recent work “Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting” has received the AAAI 2021 Best Paper Award. It ranks the 1st place of Trending Research on PaperWithCode and its Github receives 2,600+ Stars. Shanghang has been selected to “2018 Rising Stars in EECS, USA”. She has also been awarded the Adobe Academic Collaboration Fund, Qualcomm Innovation Fellowship (QInF) Finalist Award, and Chiang Chen Overseas Graduate Fellowship. Dr. Zhang has been the chief organizer of several workshops on ICML/NeurIPS, and the special issue on ICMR. Dr. Zhang received her Ph.D. from Carnegie Mellon University in 2018, and her Master from Peking University.</p>
                     <p>Shanghang has been selected to “2018 Rising Stars in EECS, USA”. She has also been awarded the
                       Adobe Academic Collaboration Fund,
                       Qualcomm Innovation Fellowship (QInF) Finalist Award, and Chiang Chen Overseas Graduate
@@ -188,31 +231,32 @@
                       Especially, by investigating the brain cognition mechanism, I develop generalized and efficient
                       machine learning
                       system that can adapt to new domains and modalities with limited labels.</p>
+                    <!-- 
                     <p><span style="color:#16a085; font-weight:bold; font-size:18px;">News and Events:</span></p>
                     <p>CVPR, 2023 June, 8 papers accepted by CVPR23</p>
                     <p>AAAI, 2023 Feb, Organizing the 1st AAAI23 Practical Deep Learning in the Wild Workshop
-                      <p>NeurIPS, 2022 Dec, 3 papers accepted by NeurIPS22</p>
-                      <p>NeurIPS, 2022 Dec, Organizing the 1st NeurIPS22 <a href="https://sslneuips20.github.io/">Human in the Loop Learning Workshop</a>.</p>
-                      <p>ECCV, 2022 Oct., 2 papers accepted by ECCV22</p>
-                      <p>IJCAI, 2022 July, 1 paper accepted by IJCAI22</p>
-                      <p>ICML, 2022 June, 1 paper accepted by ICML22</p>
-                      <p>CVPR, 2022 June, 1 paper accepted by CVPR22</p>
-                      <p>ICRA, 2022 June, 1 paper accepted by ICRA22</p>
-                      <p>NeurIPS, 2021 Dec, 3rd place on <a href="http://ai.bu.edu/visda-2021/">Visual Domain Adaptation Challenge.</a></p>
-                      <p>ICCV, 2021 Oct, Keynote talk, <a href="https://anti-uav.github.io/speakers/">The 2nd Anti-UAV Workshop & Challenge.</a></p>
-                      <p>CCN, 2021 Sep, 1st place on <a href="http://algonauts.csail.mit.edu/challenge.html">the Algonauts Project 2021 Challenge.</a></p>
-                      <p>ICML, 2021 July, Organizing 3rd <a href="https://sslneuips20.github.io/">ICML'21 workshop Human in the Loop Learning Workshop.</a></p>
-                      <p>ICML, 2021 July, Organizing <a href="https://sslneuips20.github.io/">ICML'21 workshop Self-Supervised Learning for Reasoning and
-                      Perception.</a></p>
-                      <p>CVPR, 2021 June, Speak at the 4th Workshop and Prize Challenge: Bridging the Gap between
-                      Computational Photography and Visual Recognition (UG2+)</p>
-                      <p>NeurIPS, 2020 Dec 12, Organizing <a href="https://sslneuips20.github.io/">NeurIPS'20 workshop Self-Supervised Learning-Theory and Practice</a></p>
-                      <p>ODSC, 2020 Oct 31, Speak on the  <a href="https://odsc.com/speakers/learning-with-limited-labels/">Open Data Science Conference</a></p>
-                      <p>UCSB, 2020 Oct 27, Guest Lecture on Multimodal Learning</p>
-                      <p>ICML, 2020 July 18, Organizing the <a href="https://www.icml-hill.com/">2nd ICML Workshop on Human in the Loop Learning</a></p>
-                      <p>NeurIPS, 2019 Dec 8-12, Vancouver, Canada</p>
-                      <p>ICML, 2019 June 13, Organizing the <a href="https://sites.google.com/view/hill2019">1st ICML Workshop on Human in the Loop Learning</a></p>
-
+                    <p>NeurIPS, 2022 Dec, 3 papers accepted by NeurIPS22</p>
+                    <p>NeurIPS, 2022 Dec, Organizing the 1st NeurIPS22 <a href="https://sslneuips20.github.io/">Human in the Loop Learning Workshop</a>.</p>
+                    <p>ECCV, 2022 Oct., 2 papers accepted by ECCV22</p>
+                    <p>IJCAI, 2022 July, 1 paper accepted by IJCAI22</p>
+                    <p>ICML, 2022 June, 1 paper accepted by ICML22</p>
+                    <p>CVPR, 2022 June, 1 paper accepted by CVPR22</p>
+                    <p>ICRA, 2022 June, 1 paper accepted by ICRA22</p>
+                    <p>NeurIPS, 2021 Dec, 3rd place on <a href="http://ai.bu.edu/visda-2021/">Visual Domain Adaptation Challenge.</a></p>
+                    <p>ICCV, 2021 Oct, Keynote talk, <a href="https://anti-uav.github.io/speakers/">The 2nd Anti-UAV Workshop & Challenge.</a></p>
+                    <p>CCN, 2021 Sep, 1st place on <a href="http://algonauts.csail.mit.edu/challenge.html">the Algonauts Project 2021 Challenge.</a></p>
+                    <p>ICML, 2021 July, Organizing 3rd <a href="https://sslneuips20.github.io/">ICML'21 workshop Human in the Loop Learning Workshop.</a></p>
+                    <p>ICML, 2021 July, Organizing <a href="https://sslneuips20.github.io/">ICML'21 workshop Self-Supervised Learning for Reasoning and
+                    Perception.</a></p>
+                    <p>CVPR, 2021 June, Speak at the 4th Workshop and Prize Challenge: Bridging the Gap between
+                    Computational Photography and Visual Recognition (UG2+)</p>
+                    <p>NeurIPS, 2020 Dec 12, Organizing <a href="https://sslneuips20.github.io/">NeurIPS'20 workshop Self-Supervised Learning-Theory and Practice</a></p>
+                    <p>ODSC, 2020 Oct 31, Speak on the  <a href="https://odsc.com/speakers/learning-with-limited-labels/">Open Data Science Conference</a></p>
+                    <p>UCSB, 2020 Oct 27, Guest Lecture on Multimodal Learning</p>
+                    <p>ICML, 2020 July 18, Organizing the <a href="https://www.icml-hill.com/">2nd ICML Workshop on Human in the Loop Learning</a></p>
+                    <p>NeurIPS, 2019 Dec 8-12, Vancouver, Canada</p>
+                    <p>ICML, 2019 June 13, Organizing the <a href="https://sites.google.com/view/hill2019">1st ICML Workshop on Human in the Loop Learning</a></p>
+                     -->
                   </div>
                 </td>
               </tr>

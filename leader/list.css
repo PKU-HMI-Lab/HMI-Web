@@ -76,15 +76,15 @@
 
 .menu {
 	position: absolute;
-	margin:0 auto 0 200px;
-	width: 930px;
+	margin:0 auto 0 100px;
+	width: 1200px;
 	height:auto;
 	float:right;
-	color: #C1BFB5;
+	color: #c1b5b5;
 	font-size:16px;
-    font-weight: 600;
+	font-weight: 600;
 	line-height:150px;
-    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	}
 .menu a{ text-decoration:none;color:#535353;font-size:15px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;} 
 .menu a:hover { text-decoration:none;color:#C1BFB5;font-size:15px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;border-bottom:1px solid #C1BFB5;}
@@ -150,7 +150,7 @@
 	height:56px;
 	text-align:left;
 	background-color:#e7f4f1;
-	color:#16a085;
+	color:rgb(192, 32, 32);
 	font-size:26px;
 	text-indent:1em;
 	font-weight:600;
