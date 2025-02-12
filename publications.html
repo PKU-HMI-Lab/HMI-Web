@@ -66,6 +66,18 @@
       transform: scale(1.05);
     }
     -->
+	.conference {
+        font-weight: bold;
+        color: red;
+    }
+    .journal {
+        font-weight: bold;
+        color: blue;
+    }
+    .author-bold {
+        font-weight: bold;
+        text-decoration: underline;
+    }
   </style>
 
 </head>
@@ -76,7 +88,7 @@
 <div class="top">
     
     <div class="topmenu">
-		<div class="logo" style="margin-top: 30px;">
+      <div class="logo" style="margin-top: 30px;">
         <table width="85px" border="0" cellspacing="8" cellpadding="0">
           <tbody>
             <tr>
@@ -94,6 +106,12 @@
             <a href="./index.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
               <span>首页</span>
               <span>Homepage</span>
+            </a>
+          </div>
+          <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
+            <a href="./leader.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+              <span>首席研究员</span>
+              <span>Principal Investigator</span>
             </a>
           </div>
           <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
@@ -115,7 +133,7 @@
             </a>
           </div>
           <div style="padding: 10px 25px; border: 0px solid #ddd; border-radius: 5px; transition: background-color 0.3s; height: 40px; display: flex; align-items: center;">
-            <a href="#" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
+            <a href="./publications.html" style="text-decoration: none; color: #333; font-weight: bold; font-size: 14px; display: flex; flex-direction: column; align-items: center; line-height: 2;">
               <span>论文发表</span>
               <span>Publications</span>
             </a>
@@ -170,694 +188,928 @@
                   <div class="con2">
 					<!-- 1 -->
 					<br><br>
-					<h2 style="font-size:24px; color:#ee1212; font-weight:700; margin-bottom:20px;">Journal Paper</h2>
-					<br>
-					<h1 style="font-size:18px; color:#ee1212; font-weight:700; margin-bottom:20px;">2025</h1>
-					<br>
-					<!-- <div class="conta1"><img src="./publications/pub1.jpg"></div> -->
-                    <p class="contc1"><span style="color:#474747">[TCSVT]</span> BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection<br>
-						Rongyu Zhang, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du,
-                      <span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-					<br>
-                      IEEE Transactions on Circuits and Systems for Video Technology
-                    </p>
-                    <!-- <p class="contd1"><a
-                        href="https://scholar.google.com/scholar?oi=bibs&cluster=11537633489748716364&btnI=1&hl=en"
-                        target="_blank">[PDF]</a></p> -->
-					<div class="contline"></div>
-					
-					<br>
-					<h1 style="font-size:18px; color:#ee1212; font-weight:700; margin-bottom:20px;">2024</h1>
-					<br>
-
-					<p class="contc1"><span style="color:#129e64">[NM]</span> 
-						Multimodal large language models for bioimage analysis
-						<br>
-                      <span style="border-bottom:1px solid #474747">Shanghang Zhang</span>, Gaole Dai, Tiejun Huang, Jianxu Chen
-					<br>
-                      Nature Methods
-                    </p>
-                    <!-- <p class="contd1"><a
-                        href="https://scholar.google.com/scholar?oi=bibs&cluster=11537633489748716364&btnI=1&hl=en"
-                        target="_blank">[PDF]</a></p> -->
-					<div class="contline"></div>
-
-					<p class="contc1"><span style="color:#129e64">[NM]</span> 
-						EfficientBioAI: making bioimaging AI models efficient in energy and latency
-						<br>
-						Yu Zhou, Jiajun Cao, Justin Sonneck, Sweta Banerjee, Stefanie Dörr, Anika Grüneboom, Kristina Lorenz, 
-                      <span style="border-bottom:1px solid #474747">Shanghang Zhang</span>, Jianxu Chen
-					<br>
-                      Nature Methods
-                    </p>
-                    <!-- <p class="contd1"><a
-                        href="https://scholar.google.com/scholar?oi=bibs&cluster=11537633489748716364&btnI=1&hl=en"
-                        target="_blank">[PDF]</a></p> -->
-					<div class="contline"></div>
-
-					<p class="contc1"><span style="color:#474747">[TGRS]</span> 
-						DECOR: Dynamic Decoupling and Multi-Objective Optimization for Long-tailed Remote Sensing Image Classification
-						<br>
-						Jianlin Xie, Guanqun Wang, Yin Zhuang, Can Li, Tong Zhang, He Chen, Liang Chen,
-                      <span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-					<br>
-					IEEE Transactions on Geoscience and Remote Sensing
-                    </p>
-                    <!-- <p class="contd1"><a
-                        href="https://scholar.google.com/scholar?oi=bibs&cluster=11537633489748716364&btnI=1&hl=en"
-                        target="_blank">[PDF]</a></p> -->
-					<div class="contline"></div>
-
-					<br>
-					<h1 style="font-size:18px; color:#ee1212; font-weight:700; margin-bottom:20px;">2023</h1>
-					<br>
-
-					<p class="contc1"><span style="color:#129e64">[TIV]</span> 
-						BEV-LGKD: A Unified LiDAR-Guided Knowledge Distillation Framework for Multi-View BEV 3D Object Detection
-						<br>
-						Jianing Li, Ming Lu, Jiaming Liu, Yandong Guo, Yuan Du, Li Du,
-                      <span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-					<br>
-					IEEE Transactions on Intelligent Vehicles
-                    </p>
-                    <!-- <p class="contd1"><a
-                        href="https://scholar.google.com/scholar?oi=bibs&cluster=11537633489748716364&btnI=1&hl=en"
-                        target="_blank">[PDF]</a></p> -->
-					<div class="contline"></div>
-
-
-					<br><br>
-					<h2 style="font-size:24px; color:#3e17e9; font-weight:700; margin-bottom:20px;">Conference Paper</h2>
-					<br>
-					<h1 style="font-size:18px; color:#3e17e9; font-weight:700; margin-bottom:20px;">2024</h1>
+					<h2 style="font-size:24px; color:#ee1212; font-weight:700; margin-bottom:20px;">Selected Papers</h2>
 					<br>
 					<p class="contc1">
-						<span style="color:#474747">[NIPS]</span>
-						RoboMamba: Multimodal State Space Model for Efficient Robot Reasoning and Manipulation
+						<span class="conference">[ICLR 2025, Spotlight (Top 5.1%)]</span>
+						Co3Gesture: Towards Coherent Concurrent Co-speech 3D Gesture Generation with Interactive Diffusion
 						<br>
-						Jiaming Liu, Mengzhen Liu, Zhenyu Wang, Lily Lee, Kaichen Zhou, Pengju An, Senqiao Yang, Renrui Zhang, Yandong Guo, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						
-						<br>
-						Advances in Neural Information Processing Systems 2024
+						Xingqun Qi, Yatian Wang, Hengyuan Zhang, Jiahao Pan, Wei Xue, <span class="author-bold">Shanghang Zhang</span>, Wenhan Luo, Qifeng Liu, Yike Guo
 					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
+
 					<div class="contline"></div>
 
 					<p class="contc1">
-						<span style="color:#474747">[NIPS]</span>
+						<span class="conference">[ICLR 2025]</span>
+						Draw-and-Understand: Leveraging Visual Prompts to Enable MLLMs to Comprehend What You Want
+						<br>
+						Weifeng Lin, Xinyu Wei, Ruichuan An, Peng Gao, Bocheng Zou, Yulin Luo, Siyuan Huang, <span class="author-bold">Shanghang Zhang</span>, Hongsheng Li
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICLR 2025]</span>
+						MAVIS: Mathematical Visual Instruction Tuning
+						<br>
+						Renrui Zhang, Xinyu Wei, Dongzhi Jiang, Yichi Zhang, Ziyu Guo, Chengzhuo Tong, Jiaming Liu, Aojun Zhou, <span class="author-bold">Shanghang Zhang</span>, Peng Gao, Hongsheng Li
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICRA 2025]</span>
+						SliceOcc: Indoor 3D Semantic Occupancy Prediction with Vertical Slice Representation
+						<br>
+						Jianing Li, Hao Wang, Guxixi Gu Chenyang, Ming Lu, Wenzhao Zheng, LI DU, <span class="author-bold">Shanghang Zhang</span>
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICRA 2025]</span>
+						High-Quality 3D Creation from A Single Image Using Subject-Specific Knowledge Prior
+						<br>
+						Nan Huang, Ting Zhang, Yuhui Yuan, Dong Chen, <span class="author-bold">Shanghang Zhang</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICRA 2025]</span>
+						DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Environments
+						<br>
+						Ma, Ji, Dai, Ryan, Mu, Yao, Wu, Pengying, Wang, Hao, Chi, Xiaowei, Fei, Yang, <span class="author-bold">Zhang, Shanghang</span>, Liu, Chang
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[AAAI 2025]</span>
+						7
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[AAAI 2025]</span>
+						Subgraph Aggregation for Out-of-Distribution Generalization on Graphs
+						<br>
+						Bowen Liu, Haoyang Li, Shuning Wang, Shuo Nie, <span class="author-bold">Shanghang Zhang</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[AAAI 2025]</span>
+						LiDAR-LLM: Exploring the Potential of Large Language Models for 3D LiDAR Understanding
+						<br>
+						Senqiao Yang, Jiaming Liu, Renrui Zhang, Mingjie Pan, Ziyu Guo, Xiaoqi Li, Zehui Chen, Peng Gao, Hongsheng Li, Yandong Guo, <span class="author-bold">Shanghang Zhang</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[AAAI 2025]</span>
+						DesignEdit: Unify Spatial-Aware Image Editing via Training-free Inpainting with a Multi-Layered Latent Diffusion Framework
+						<br>
+						Yueru Jia, Yuhui Yuan, Aosong Cheng, Chuke Wang, Ji Li, Huizhu Jia, <span class="author-bold">Shanghang Zhang</span>
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[Light: Science & Applications (Nature 子刊)]</span>
+						Electromagnetic metamaterial agent
+						<br>
+						Lianlin Li, Shengguo Hu, Mingyi Li, Jiawen Xu, Hongrui Zhang, <span class="author-bold">Shanghang Zhang</span>, Tie Jun Cui, and Philipp del Hougne
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[NeurIPS 2024]</span>
 						Unveiling the Tapestry of Consistency in Large Vision-Language Models
 						<br>
-						Yuan Zhang, Fei Xiao, Tao Huang, Chun-Kai Fan, Hongyuan Dong, Jiawen Li, Jiacong Wang, Kuan Cheng,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>,
-						Haoyuan Guo
-						<br>
-						Advances in Neural Information Processing Systems 2024
+						Yuan Zhang, Fei xiao, Tao Huang, Chun-Kai Fan, Hongyuan Dong, Jiawen Li, Jiacong Wang, Kuan Cheng, <span class="author-bold">Shanghang Zhang</span>*, Haoyuan Guo*
 					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
+
 					<div class="contline"></div>
-					
 					<p class="contc1">
-						<span style="color:#129e64">[EMNLP]</span>
+						<span class="conference">[Advances in Neural Information Processing Systems (NeurIPS), 2024]</span>
+						RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
+						<br>
+						Jiaming Liu, Mengzhen Liu, Zhenyu Wang, Pengju An, Xiaoqi Li, Kaichen Zhou, Senqiao Yang, Renrui Zhang, Yandong Guo, <span class="author-bold">Shanghang Zhang*</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[NeurIPS 2024]</span>
+						Era3D: High-Resolution Multiview Diffusion using Efficient Row-wise Attention
+						<br>
+						Peng Li, Yuan Liu, Xiaoxiao Long, Feihu Zhang, Cheng Lin, Mengfei Li, Xingqun Qi, <span class="author-bold">Shanghang Zhang</span>, Wei Xue, Wenhan Luo, Ping Tan, Wenping Wang, Qifeng Liu, Yike Guo
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[EMNLP 2024]</span>
+						Unleashing the Potentials of Likelihood Composition for Multi-modal Language Models
+						<br>
+						Shitian Zhao, Renrui Zhang, Xu Luo, Yan Wang, <span class="author-bold">Shanghang Zhang</span>, Peng Gao
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[EMNLP 2024]</span>
 						Learning from Mistakes: Iterative Prompt Relabeling for Text-to-Image Diffusion Model Training
 						<br>
-						Xinyan Chen, Jiaxin Ge, Tianjun Zhang, Jiaming Liu,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						
-						<br>
-						Findings of the Association for Computational Linguistics: EMNLP 2024
+						Xinyan Chen, Jiaxin Ge, Tianjun Zhang, Jiaming Liu, <span class="author-bold">Shanghang Zhang</span>
 					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
+
 					<div class="contline"></div>
 
 					<p class="contc1">
-						<span style="color:#474747">[MM]</span>
+						<span class="conference">[ECCV 2024]</span>
+						LLM as Dataset Analyst: Subpopulation Structure Discovery with Large Language Model
+						<br>
+						Yulin Luo, Ruichuan An, Bocheng Zou, Yiming Tang, Jiaming Liu, <span class="author-bold">Shanghang Zhang</span>
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[ECCV 2024]</span>
+						I-MedSAM: Implicit Medical Image Segmentation with Segment Anything
+						<br>
+						Xiaobao Wei, Jiajun Cao, Yizhu Jin, Ming Lu, Guangyu Wang, <span class="author-bold">Shanghang Zhang</span>
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[ACM MM 2024]</span>
 						VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness
 						<br>
-						Rongyu Zhang, Zefan Cai, Huanrui Yang, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						
-						<br>
-						Proceedings of the 32nd ACM International Conference on Multimedia
+						Rongyu Zhang, Zefan Cai, Huanrui Yang, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, <span class="author-bold">Shanghang Zhang</span>*
 					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
 
+					<div class="contline"></div>
 					<p class="contc1">
-						<span style="color:#129e64">[ECCV]</span>
-						LLM as dataset analyst: Subpopulation structure discovery with large language model
+						<span class="conference">[Nature Methods (2024)]</span>
+						Multimodal Large Language Model for Biological Image Analysis.
 						<br>
-						Yulin Luo, Ruichuan An, Bocheng Zou, Yiming Tang, Jiaming Liu, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						European Conference on Computer Vision 2024
+						Shanghang Zhang*, Gaole Dai, Tiejun Huang, and Jianxu Chen*.
 					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
+
 					<div class="contline"></div>
-
 					<p class="contc1">
-						<span style="color:#474747">[ICME]</span>
-						Enhanced Blind Watermarking Against Black-Box Noise: Leveraging CIN Framework
-						<br>
-						Rui Ma, Mengxi Guo, Peidong Jia, Chenxuan Li, Yi Hou, Yuan Li, Xiaodong Xie,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						
-						<br>
-						2024 IEEE International Conference on Multimedia and Expo 
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#474747">[ICME]</span>
-						VLUReID: Exploiting Vision-Language Knowledge for Unsupervised Person Re-Identification
-						<br>
-						Dongmei Zhang, Ray Zhang, Fan Yang, Yuan Li, Huizhu Jia, Xiaodong Xie,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						
-						<br>
-						2024 IEEE International Conference on Multimedia and Expo 
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#474747">[ICME]</span>
-						VLUReID: Exploiting Vision-Language Knowledge for Unsupervised Person Re-Identification
-						<br>
-						Yijia Zhang, Lingran Zhao, Shijie Cao, Sicheng Zhang, Wenqiang Wang, Ting Cao, Fan Yang, Mao Yang,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						, Ningyi Xu
-						<br>
-						2024 IEEE International Conference on Multimedia and Expo 
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[ICRA]</span>
-						BEVUDA: Multi-geometric space alignments for domain adaptive BEV 3D object detection
-						<br>
-						Jiaming Liu, Rongyu Zhang, Xiaoqi Li, Xiaowei Chi, Zehui Chen, Ming Lu, Yandong Guo,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						2024 IEEE International Conference on Robotics and Automation 
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[ICRA]</span>
-						Unsupervised spike depth estimation via cross-modality cross-domain knowledge transfer
-						<br>
-						Jiaming Liu, Qizhe Zhang, Xiaoqi Li, Jianing Li, Guanqun Wang, Ming Lu, Tiejun Huang,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						2024 IEEE International Conference on Robotics and Automation 
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[ICRA]</span>
-						Distribution-Aware Continual Test-Time Adaptation for Semantic Segmentation
-						<br>
-						Jiayi Ni, Senqiao Yang, Ran Xu, Jiaming Liu, Xiaoqi Li, Wenyu Jiao, Zehui Chen, Yi Liu,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						2024 IEEE International Conference on Robotics and Automation 
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[ICRA]</span>
-						Renderocc: Vision-centric 3d occupancy prediction with 2d rendering supervision
-						<br>
-						Mingjie Pan, Jiaming Liu, Renrui Zhang, Peixiang Huang, Xiaoqi Li, Hongwei Xie, Bing Wang, Li Liu,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						2024 IEEE International Conference on Robotics and Automation 
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-
-					<p class="contc1">
-						<span style="color:#474747">[AAAI]</span>
-						Exploring sparse visual prompt for domain adaptive dense prediction
-						<br>
-						Senqiao Yang, Jiarui Wu, Jiaming Liu, Xiaoqi Li, Qizhe Zhang, Mingjie Pan, Yulu Gan, Zehui Chen,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the AAAI Conference on Artificial Intelligence 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#474747">[AAAI]</span>
-						Efficient Deweahter Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation
-						<br>
-						Rongyu Zhang, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the AAAI Conference on Artificial Intelligence 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#474747">[AAAI]</span>
-						FM-OV3D: Foundation Model-Based Cross-Modal Knowledge Blending for Open-Vocabulary 3D Detection
-						<br>
-						Dongmei Zhang, Chang Li, Renrui Zhang, Shenghao Xie, Wei Xue, Xiaodong Xie,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the AAAI Conference on Artificial Intelligence 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						NTO3D: Neural Target Object 3D Reconstruction with Segment Anything
-						<br>
-						Xiaobao Wei, Renrui Zhang, Jiarui Wu, Jiaming Liu, Ming Lu, Yandong Guo, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Continual-MAE: Adaptive Distribution Masked Autoencoders for Continual Test-Time Adaptation
-						<br>
-						Jiaming Liu, Ran Xu, Senqiao Yang, Renrui Zhang, Qizhe Zhang, Zehui Chen, Yandong Guo,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						FreeKD: Knowledge Distillation via Semantic Frequency Prompt
-						<br>
-						Yuan Zhang, Tao Huang, Jiaming Liu, Tao Jiang, Kuan Cheng,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						PromptCoT: Align Prompt Distribution via Adapted Chain-of-Thought
-						<br>
-						Junyi Yao, Yijiang Liu, Zhen Dong, Mingfei Guo, Helan Hu, Kurt Keutzer, Li Du, Daquan Zhou,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Cloud-Device Collaborative Learning for Multimodal Large Language Models
-						<br>
-						Guanqun Wang, Jiaming Liu, Chenxuan Li, Yuan Zhang, Junpeng Ma, Xinyu Wei, Kevin Zhang, Maurice Chong, Renrui Zhang, Yijiang Liu,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Gradient-based Parameter Selection for Efficient Fine-Tuning
-						<br>
-						Zhi Zhang, Qizhe Zhang, Zijun Gao, Renrui Zhang, Ekaterina Shutova, Shiji Zhou,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#474747">[ICLR]</span>
-						Vida: Homeostatic visual domain adapter for continual test time adaptation
-						<br>
-						Jiaming Liu, Senqiao Yang, Peidong Jia, Renrui Zhang, Ming Lu, Yandong Guo, Wei Xue, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						The Twelfth International Conference on Learning Representation 2024
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<br>
-					<h1 style="font-size:18px; color:#3e17e9; font-weight:700; margin-bottom:20px;">2023</h1>
-					<br>
-
-					<p class="contc1">
-						<span style="color:#129e64">[MICCAI]</span>
-						Diffuseir: Diffusion models for isotropic reconstruction of 3d microscopic images
-						<br>
-						Mingjie Pan, Yulu Gan, Fangxu Zhou, Jiaming Liu, Ying Zhang, Aimin Wang,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>, Dawei Li
-						<br>
-						International Conference on Medical Image Computing and Computer-Assisted Intervention 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#474747">[IGARSS]</span>
-						Uncertainty-Aware Dynamic Learning for Cross-Domain Few-Shot Scene Classification from Remote Sensing Imagery
-						<br>
-						Can Li, He Chen, Yin Zhuang, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						2023 IEEE International Geoscience and Remote Sensing Symposium
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[DAC]</span>
-						Csq: Growing mixed-precision quantization scheme with bi-level continuous sparsification
-						<br>
-						Lirui Xiao, Huanrui Yang, Zhen Dong, Kurt Keutzer, Li Du, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						2023 60th ACM/IEEE Design Automation Conference
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#474747">[NOSSDAV]</span>
-						RepCaM: Re-parameterization Content-aware Modulation for Neural Video Delivery
-						<br>
-						Rongyu Zhang, Lixuan Du, Jiaming Liu, Congcong Song, Fangxin Wang, Xiaoqi Li, Ming Lu, Yandong Guo, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the 33rd Workshop on Network and Operating System Support for Digital Audio and Video 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Bev-san: Accurate bev 3d object detection via slice attention networks
-						<br>
-						Xiaowei Chi, Jiaming Liu, Ming Lu, Rongyu Zhang, Zhaoqing Wang, Yandong Guo,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Q-diffusion: Quantizing diffusion models
-						<br>
-						Xiuyu Li, Yijiang Liu, Long Lian, Huanrui Yang, Zhen Dong, Daniel Kang, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>, Kurt Keutzer
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Open-vocabulary point-cloud object detection without 3d annotation
-						<br>
-						Yuheng Lu, Chenfeng Xu, Xiaobao Wei, Xiaodong Xie, Masayoshi Tomizuka, Kurt Keutzer, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Pimae: Point cloud and image interactive masked autoencoders for 3d object detection
-						<br>
-						Anthony Chen, Kevin Zhang, Renrui Zhang, Zihan Wang, Yuheng Lu, Yandong Guo,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Cloud-device collaborative adaptation to continual changing environments in the real-world
-						<br>
-						Yulu Gan, Mingjie Pan, Rongyu Zhang, Zijian Ling, Lingran Zhao, Jiaming Liu,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#129e64">[CVPR]</span>
-						Noisyquant: Noisy bias-enhanced post-training activation quantization for vision transformers
-						<br>
-						Yijiang Liu, Huanrui Yang, Zhen Dong, Kurt Keutzer, Li Du, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-					<p class="contc1">
-						<span style="color:#474747">[ICCV]</span>
-						QD-BEV: quantization-aware view-guided distillation for multi-view 3D object detection
-						<br>
-						Yifan Zhang, Zhen Dong, Huanrui Yang, Ming Lu, Cheng-Ching Tseng, Yuan Du, Kurt Keutzer, Li Du, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						Proceedings of the IEEE/CVF International Conference on Computer Vision 2023
-					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
-
-
-					<p class="contc1">
-						<span style="color:#129e64">[ICML]</span>
+						<span class="conference">[ICML 2024]</span>
 						Split-Ensemble: Efficient OOD-aware Ensemble via Task and Model Splitting
 						<br>
-						Anthony Chen, Huanrui Yang, Yulu Gan, Denis A Gudovskiy, Zhen Dong, Haofan Wang, Tomoyuki Okuno, Yohei Nakata,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>, Kurt Keutzer
-						<br>
-						International Conference on Machine Learning 2023
+						Anthony Chen, Huanrui Yang, Yulu Gan, Denis A Gudovskiy, Zhen Dong, Haofan Wang, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, <span class="author-bold">Shanghang Zhang</span>*
 					</p>
+
+					<div class="contline"></div>
 					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
+						<span class="conference">[ICML 2024]</span>
+						Compositional Few-Shot Class-Incremental Learning
+						<br>
+						Yixiong Zou, Shanghang Zhang, Haichen Zhou, Yuhua Li and Ruixuan Li
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICML 2024]</span>
+						VoroNav: Voronoi-based Zero-shot Object Navigation with Large Language Model
+						<br>
+						Pengying Wu, Yao Mu, Bingxian Wu, Yi Hou, Ji Ma, <span class="author-bold">Shanghang Zhang*</span>, Chang Liu*
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[Nature Scientific Data (2024)]</span>
+						A multimodal physiological dataset for driving behaviour analysis
+						<br>
+						Xiaoming Tao, Dingcheng Gao, Wenqi Zhang, Tianqi Liu, <span class="author-bold">Shanghang Zhang</span>, Bing Du, Yanjun Qin
+					</p>
+
 					<div class="contline"></div>
 
-					<br>
-					<h1 style="font-size:18px; color:#3e17e9; font-weight:700; margin-bottom:20px;">2022</h1>
-					<br>
+					<p class="contc1">
+						<span class="conference">[IEEE Journal of Biomedical and Health Informatics (JBHI) (2024)]</span>
+						Exploring generalizable distillation for efficient medical image segmentation
+						<br>
+						Qi, Xingqun, Zhuojie Wu, Wenxuan Zou, Min Ren, Yifan Gao, Muyi Sun, Shanghang Zhang, Caifeng Shan, and Zhenan Sun
+					</p>
+
+					<div class="contline"></div>
 
 					<p class="contc1">
-						<span style="color:#474747">[ECCV]</span>
+						<span class="conference">[CVPR 2024]</span>
+						FreeKD: Knowledge Distillation via Semantic Frequency Prompt
+						<br>
+						Yuan Zhang, Tao Huang, Jiaming Liu, Tao Jiang, Kuan Cheng, <span class="author-bold">Shanghang Zhang*</span>
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[CVPR 2024]</span>
+						PromptCoT: Align Prompt Distribution via Adapted Chain-of-Thought
+						<br>
+						Junyi Yao, Yijiang Liu, Zhen Dong, Mingfei Guo, Helan Hu, Kurt Keutzer, Li Du, Daquan Zhou, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[CVPR 2024]</span>
+						Continual-MAE: Adaptive Distribution Masked Autoencoders for Continual Test-Time Adaptation
+						<br>
+						Jiaming Liu, Ran Xu, Senqiao Yang, Renrui Zhang, Qizhe Zhang, Zehui Chen, Yandong Guo, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[CVPR 2024]</span>
+						NTO3D: Neural Target Object 3D Reconstruction with Segment Anything
+						<br>
+						Xiaobao Wei, Renrui Zhang, Jiarui Wu, Jiaming Liu, Ming Lu, Yandong Guo, <span class="author-bold">Shanghang Zhang*</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[CVPR 2024]</span>
+						Weakly-Supervised Emotion Transition Learning for Diverse 3D Co-speech Gesture Generation
+						<br>
+						Xingqun Qi, Jiahao Pan, Peng Li, Ruibin Yuan, Xiaowei Chi, Mengfei Li, Wenhan Luo, Wei Xue, <span class="author-bold">Shanghang Zhang</span>, Qifeng Liu, Yike Guo
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[CVPR 2024]</span>
+						Cloud-Device Collaborative Learning for Multimodal Large Language Models
+						<br>
+						Guanqun Wang, Jiaming Liu, Chenxuan Li, Yuan Zhang, Ma Junpeng, Xinyu Wei, Kevin Zhang, Maurice Chong, Renrui Zhang, Yijiang Liu, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[CVPR 2024]</span>
+						Gradient-based Parameter Selection for Efficient Fine-Tuning
+						<br>
+						Zhi Zhang, Qizhe Zhang, Zijun Gao, Renrui Zhang, Ekaterina Shutova, Shiji Zhou, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[IEEE International Conference on Multimedia & Expo (ICME), Oral presentation, 2024]</span>
+						Enhanced Blind Watermarking Against Black-Box Noise: Leveraging CIN Framework
+						<br>
+						Rui Ma, Mengxi Guo, Peidong Jia, Chenxuan Li, Yi Hou, Yuan Li, Xiaodong Xie, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[IEEE International Conference on Multimedia & Expo (ICME), 2024]</span>
+						Integer or Floating Point? New Outlooks for Low-Bit Quantization on Large Language Models
+						<br>
+						Yijia Zhang, Lingran Zhao, Shijie Cao, Sicheng Zhang, Wenqiang Wang, Ting Cao, Fan Yang, Mao Yang, <span class="author-bold">Shanghang Zhang</span>, Ningyi Xu
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[IEEE International Conference on Multimedia & Expo (ICME), Oral presentation, 2024]</span>
+						VLUReID: Exploiting Vision-Language Knowledge for Unsupervised Person Re-Identification
+						<br>
+						Dongmei Zhang, Shanghang Zhang, Ray Zhang, Fan Yang, Yuan Li, Huizhu Jia, Xiaodong Xie
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[Nature Methods (2024)]</span>
+						EfficientBioAI: making bioimaging AI models efficient in energy and latency
+						<br>
+						Zhou, Yu, Jiajun Cao, Justin Sonneck, Sweta Banerjee, Stefanie Dörr, Anika Grüneboom, Kristina Lorenz, <span class="author-bold">Shanghang Zhang</span>, and Jianxu Chen
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[International Conference on Robotics and Automation (ICRA), 2024]</span>
+						Unsupervised Spike Depth Estimation via Cross-modality Cross-domain Knowledge Transfer
+						<br>
+						Jiaming Liu, Qizhe Zhang, Xiaoqi Li, Jianing Li, Guanqun Wang, Ming Lu, Tiejun Huang, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[International Conference on Robotics and Automation (ICRA), 2024]</span>
+						Multi-geometric Space Alignments for Domain Adaptive Multi-view 3D Object Detection
+						<br>
+						Jiaming Liu, Rongyu Zhang, Xiaoqi Li, Xiaowei Chi, Zehui Chen, Ming Lu, Yandong Guo, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[International Conference on Robotics and Automation (ICRA), 2024]</span>
+						RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision
+						<br>
+						Mingjie Pan, Jiaming Liu, Renrui Zhang, Peixiang Huang, Xiaoqi Li, Bing Wang, Hongwei Xie, Li Liu, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICRA 2024]</span>
+						Distribution-Aware Continual Test Time Adaptation for Semantic Segmentation
+						<br>
+						Jiayi Ni, Senqiao Yang, Jiaming Liu, Xiaoqi Li, Wenyu Jiao, Ran Xu, Zehui Chen, Yi Liu, <span class="author-bold">Shanghang Zhang*</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[The Twelfth International Conference on Learning Representations (ICLR), 2024]</span>
+						ViDA: Homeostatic Visual Domain Adapter for Continual Test Time Adaptation
+						<br>
+						Jiaming Liu, Senqiao Yang, Peidong Jia, Renrui Zhang, Ming Lu, Yandong Guo, Wei Xue, <span class="author-bold">Shanghang Zhang</span>*
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[The Twelfth International Conference on Learning Representations (ICLR), 2024]</span>
+						ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate
+						<br>
+						Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, <span class="author-bold">Shanghang Zhang</span>, Jie Fu, Zhiyuan Liu
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024]</span>
+						FM-OV3D: Foundation Model-based Cross-modal Knowledge Blending for Open-Vocabulary 3D Detection
+						<br>
+						Zhang D, Li C, Zhang R, Xie S, Xue W, Xie X, Zhang S
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024]</span>
+						Exploring Sparse Visual Prompt for Domain Adaptive Dense Prediction
+						<br>
+						Yang S, Wu J, Liu J, Li X, Zhang Q, Pan M, Gan Y, Chen Z, <span class="author-bold">Zhang S</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024]</span>
+						Efficient Deweahter Mixture-of-Experts with Uncertainty-Aware Feature-wise Linear Modulation
+						<br>
+						Zhang R, Luo Y, Liu J, Yang H, Dong Z, Gudovskiy D, Okuno T, Nakata Y, Keutzer K, Du Y, Zhang S
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024]</span>
+						Leveraging Imagery Data with Spatial Point Prior for Weakly Semi-Supervised 3D Object Detection
+						<br>
+						Gao H, Chen Z, Chen Z, Chen L, Liu J, <span class="author-bold">Zhang S</span>, Zhao F
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[IEEE Transactions on Neural Networks and Learning Systems (TNNLS IF 10) 2023]</span>
+						Biphasic Face Photo-Sketch Synthesis via Semantic-Driven Generative Adversarial Network with Graph Representation Learning
+						<br>
+						Qi X; Sun M; Wang Z; Liu J; Li Q; Zhao F; Zhang S; Shan C
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[Artificial Intelligence. 2023 May 1;318:103886]</span>
+						Expanding the prediction capacity in long sequence time-series forecasting
+						<br>
+						Zhou H, Li J, Zhang S, Zhang S, Yan M, Xiong H
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[NeurIPS 2023]</span>
+						PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection
+						<br>
+						Zhou Q, Li W, Jiang L, Wang G, Zhou G, <span class="author-bold">Zhang S</span>, Zhao H
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[WACV 2024]</span>
+						TCP: Triplet Contrastive-relationship Preserving for Class-Incremental Learning
+						<br>
+						Li S, Ning X, Zhang S, Guo L, Zhao T, Yang H, Wang Y
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[IEEE Transactions on Intelligent Vehicles]</span>
+						BEV-LGKD: A Unified LiDAR-Guided Knowledge Distillation Framework for Multi-View BEV 3D Object Detection
+						<br>
+						Li J, Lu M, Liu J, Guo Y, Du Y, Du L, <span class="author-bold">Zhang S*</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICCV 2023]</span>
+						QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection
+						<br>
+						Zhang Y, Dong Z, Yang H, Lu M, Tseng CC, Du Y, Keutzer K, Du L, <span class="author-bold">Zhang S</span>*
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICCV 2023]</span>
+						Q-diffusion: Quantizing diffusion models
+						<br>
+						Li X, Liu Y, Lian L, Yang H, Dong Z, Kang D, Zhang S, Keutzer K
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICCV 2023]</span>
+						Pointclip v2: Prompting clip and gpt for powerful 3D open-world learning
+						<br>
+						Zhu X, Zhang R, He B, Guo Z, Zeng Z, Qin Z, Zhang S, Gao P
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[2023 60th ACM/IEEE Design Automation Conference (DAC)]</span>
+						Csq: Growing mixed-precision quantization scheme with bi-level continuous sparsification
+						<br>
+						Xiao L, Yang H, Dong Z, Keutzer K, Du L, <span class="author-bold">Zhang S*</span>
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICML 2023]</span>
+						Wasserstein Barycenter Matching for Graph Size Generalization of Message Passing Neural Networks
+						<br>
+						Chu X, Jin Y, Wang X, Zhang S, Wang Y, Zhu W, Mei H.
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[MICCAI 2023 Oct 1]</span>
+						DiffuseIR: Diffusion Models for Isotropic Reconstruction of 3D Microscopic Images
+						<br>
+						Pan M, Gan Y, Zhou F, Liu J, Zhang Y, Wang A, Zhang S*, Li D
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICASSP 2023 Jun 4]</span>
+						BadRes: Reveal the Backdoors Through Residual Connection
+						<br>
+						He M, Chen T, Zhou H, Zhang S, Li J
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[Remote Sensing]</span>
+						P2FEViT: Plug-and-Play CNN Feature Embedded Hybrid Vision Transformer for Remote Sensing Image Classification
+						<br>
+						Wang G, Chen H, Chen L, Zhuang Y, <span class="author-bold">Zhang S</span>, Zhang T, Dong H, Gao P
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[CVPR 2023]</span>
+						BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks
+						<br>
+						Chi X, Liu J, Lu M, Zhang R, Wang Z, Guo Y, <span class="author-bold">Zhang S*</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[CVPR 2023]</span>
+						Improving Generalization of Meta-Learning With Inverted Regularization at Inner-Level
+						<br>
+						Wang L, Zhou S, <span class="author-bold">Zhang S*</span>, Chu X, Chang H, Zhu W*
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[CVPR 2023]</span>
+						Open-vocabulary point-cloud object detection without 3D annotation
+						<br>
+						Lu Y, Xu C, Wei X, Xie X, Tomizuka M, Keutzer K, Zhang S*
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[CVPR 2023]</span>
+						Pimae: Point cloud and image interactive masked autoencoders for 3D object detection
+						<br>
+						Chen A, Zhang K, Zhang R, Wang Z, Lu Y, Guo Y, <span class="author-bold">Zhang S*</span>
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[CVPR 2023]</span>
+						Cloud-device collaborative adaptation to continual changing environments in the real-world
+						<br>
+						Gan Y, Pan M, Zhang R, Ling Z, Zhao L, Liu J, <span class="author-bold">Zhang S*</span>
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[CVPR 2023]</span>
+						NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers
+						<br>
+						Liu Y, Yang H, Dong Z, Keutzer K, Du L, <span class="author-bold">Zhang S*</span>
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[CVPR 2023]</span>
+						MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID
+						<br>
+						Gu J, Wang K, Luo H, Chen C, Jiang W, Fang Y, Zhang S, You Y, Zhao J
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[CVPR 2023]</span>
+						Annealing-Based Label-Transfer Learning for Open World Object Detection
+						<br>
+						Ma Y, Li H, Zhang Z, Guo J, <span class="author-bold">Zhang S</span>, Gong R, Liu X
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[NOSSDAV, CCF B 2023]</span>
+						RepCaM: Re-parameterization Content-aware Modulation for Neural Video Delivery
+						<br>
+						Zhang R, Du L, Liu J, Song C, Wang F, Li X, Lu M, Guo Y, <span class="author-bold">Zhang S.*</span>
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[IEEE Transactions on Circuits and Systems for Video Technology, 2023 Mar 1]</span>
+						Frame-Recurrent Video Crowd Counting
+						<br>
+						Hou Y, Zhang S*, Ma R, Jia H, Xie X
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[NeurIPS 2022]</span>
+						Outlier suppression: Pushing the limit of low-bit transformer language models
+						<br>
+						Wei X, Zhang Y, Zhang X, Gong R, Zhang S, Zhang Q, Yu F, Liu X
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[NeurIPS 2022]</span>
+						Jump Self-attention: Capturing High-order Statistics in Transformers
+						<br>
+						Zhou H, Xiao S, Zhang S, Peng J, Zhang S, Li J
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[NeurIPS 2022]</span>
+						Margin-based few-shot class-incremental learning with class-level overfitting mitigation
+						<br>
+						Zou Y, Zhang S, Li Y, Li R
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[IEEE Transactions on Cognitive and Developmental Systems]</span>
+						Learning deep features for robotic inference from physical interactions
+						<br>
+						Dehban A, Zhang S, Cauli N, Jamone L, Santos-Victor J
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[17th European Conference on Computer Vision (ECCV) 2022]</span>
 						MTTrans: Cross-Domain Object Detection with Mean Teacher Transformer
 						<br>
-						Jinze Yu, Jiaming Liu, Xiaobao Wei, Haoyi Zhou, Yohei Nakata, Denis Gudovskiy, Tomoyuki Okuno, Jianxin Li, Kurt Keutzer, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						European Conference on Computer Vision 2022
+						J. Yu, J. Liu, X.Wei, H. Zhou, Y. Nakata, D. Gudovskiy, T. Okuno, J. Li, K. Keutzer, <span class="author-bold">S. Zhang*</span>
 					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
+
 					<div class="contline"></div>
 
 					<p class="contc1">
-						<span style="color:#474747">[ECCV]</span>
+						<span class="conference">[ECCV 2022]</span>
 						Efficient Meta-Tuning for Content-aware Neural Video Delivery
 						<br>
-						Xiaoqi Li, Jiaming Liu, Shizun Wang, Cheng Lyu, Ming Lu, Yurong Chen, Anbang Yao, Yandong Guo,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						European Conference on Computer Vision 2022
+						X. Li, J. Liu, S.Wang, C. Lyu, M. Lu, Y. Chen, A. Yao, Y. Guo, <span class="author-bold">S. Zhang*</span>
 					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
 
+					<div class="contline"></div>
 					<p class="contc1">
-						<span style="color:#129e64">[IJCAI]</span>
+						<span class="conference">[ICML 2022]</span>
+						DNA: Domain generalization with diversified neural averaging
+						<br>
+						Chu X, Jin Y, Zhu W, Wang Y, Wang X, <span class="author-bold">Zhang S</span>, Mei H
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[IJCAI 2022]</span>
 						Domain-Adaptive Text Classification with Structured Knowledge from Unlabeled Data
 						<br>
-						Tian Li, Xiang Chen, Zhen Dong, Kurt Keutzer, 
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						International Joint Conference on Artificial Intelligence 2022
+						Li T, Chen X, Dong Z, Yu W, Yan Y, Keutzer K, <span class="author-bold">Zhang S*</span>
 					</p>
-					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
-					<div class="contline"></div>
 
+					<div class="contline"></div>
 					<p class="contc1">
-						<span style="color:#474747">[ICRA]</span>
+						<span class="conference">[IEEE Transactions on Multimedia (TMM), 2022]</span>
+						Active Gradual Domain Adaptation: Dataset and Approach
+						<br>
+						S. Zhou, L. Wang, S. Zhang*, Z.Wang*, W.Zhu*
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[CVPR 2022]</span>
+						Delving deep into the generalization of vision transformers under distribution shifts.
+						<br>
+						C. Zhang#, M. Zhang#, S. Zhang#, et al.
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICRA 2022]</span>
 						Prototypical Supervised Contrastive Learning for LiDAR Point Cloud Panoptic Segmentation
 						<br>
-						Minzhe Liu, Qiang Zhou, Hengshuang Zhao, Jianing Li, Yuan Du, Li Du,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						<br>
-						International Joint Conference on Artificial Intelligence 2022
+						M. Liu, Q. Zhou, H. Zhao, L. Du, Y. Du, J. Li, K. Keutzer, <span class="author-bold">S. Zhang*</span>
 					</p>
+
+					<div class="contline"></div>
 					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
+						<span class="conference">[AISTATS, 2022]</span>
+						Online Continual Adaptation with Active Self-Training
+						<br>
+						S. Zhou, H. Zhao, S. Zhang*, L.Wang, H. Chang, Z. Wang, W. Zhu*
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[WACV 2022]</span>
+						Self-supervised pretraining improves self-supervised pretraining
+						<br>
+						Reed CJ, Yue X, Nrusimha A, Ebrahimi S, Vijaykumar V, Mao R, Li B, Zhang S, Guillory D, Metzger S, Keutzer K
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICCV 2021]</span>
+						Unsupervised Domain Adaptive 3D Detection with Multi-Level Consistency
+						<br>
+						Z. Luo, Z. Cai, C. Zhou, G. Zhang, H. Zhao, S. Yi, S. Lu, H. Li, S. Zhang, Z. Liu
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICCV 2021]</span>
+						Contrastive Multimodal Fusion with TupleInfoNCE
+						<br>
+						Y. Liu, Q. Fan, S. Zhang, H. Dong, T. Funkhouser, L. Yi
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[IEEE Transactions on Multimedia (TMM), 2021]</span>
+						Caching in Dynamic Environments: a Near-optimal Online Learning Approach
+						<br>
+						S. Zhou, Z. Wang, C. Hu, Y. Mao, H. Yan, C.Wu, S. Zhang*, W. Zhu*
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ACM Multimedia (ACM MM), 2021]</span>
+						Revisiting Mid-Level Patterns for Distant-Domain Few-Shot Recognition
+						<br>
+						Y. Zou, S. Zhang, J. Yu, Y. Tian, J. Moura
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ACM Multimedia (ACM MM), 2021]</span>
+						Annotation-Efficient Untrimmed Video Action Recognition
+						<br>
+						Y. Zou, S. Zhang, G. Chen, Y. Tian, K. Keutzer, J. Moura
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2021]</span>
+						Triplet Attention: Rethinking the similarity in Transformers
+						<br>
+						H. Zhou, J. Li, J. Peng, S. Zhang, S. Zhang
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[CVPR 2021]</span>
+						Learning Invariant Representations and Risks for Semi-supervised Domain Adaptation
+						<br>
+						B. Li#, Y. Wang#, S. Zhang#, D. Li, T. Darrell, K. Keutzer, H. Zhao
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[CVPR 2021]</span>
+						Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation
+						<br>
+						X. Yue, Z. Zheng, S. Zhang, Y. Gao, T. Darrell, K. Keutzer, AL. Vincentelli
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ICLR 2021]</span>
+						Decoupling Global and Local Representations via Invertible Generative Flows
+						<br>
+						X Ma, X Kong, S Zhang, E Hovy
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICASSP, 2021]</span>
+						Cross-Domain Sentiment Classification With Contrastive Learning and Mutual Information Maximization
+						<br>
+						T. Li, X. Chen, S. Zhang*, Z. Dong*, K. Keutzer
+					</p>
+
 					<div class="contline"></div>
 
-					<br>
-					<h1 style="font-size:18px; color:#3e17e9; font-weight:700; margin-bottom:20px;">2021</h1>
-					<br>
+					<p class="contc1">
+						<span class="conference">[Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), 2021. AAAI Best Paper Award.]</span>
+						Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting
+						<br>
+						H. Zhou, S. Zhang, J. Peng, S. Zhang, J. Li, H. Xiong, W. Zhang
+					</p>
+
+					<div class="contline"></div>
 
 					<p class="contc1">
-						<span style="color:#129e64">[AAAI]</span>
-						Informer: Beyond Efficient Transformer for Long Sequence Time-Series
-						Forecasting
+						<span class="conference">[IEEE Transactions on Neural Networks and Learning Systems (TNNLS IF 10) 2020]</span>
+						A Review of Single-Source Deep Unsupervised Visual Domain Adaptation
 						<br>
-						Haoyi Zhou,
-						<span style="border-bottom:1px solid #474747">Shanghang Zhang</span>
-						, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wancai Zhang
-						<br>
-						AAAI 2021 <a href="#" style="color: red;">Best Paper</a>
+						S. Zhao, X. Yue*, S. Zhang*, B. Li, H. Zhao, B. Wu, R. Krishna, JE. Gonzalez, AL. Vincentelli, SA. Seshia, K. Keutzer
 					</p>
+
+					<div class="contline"></div>
 					<p class="contc1">
-						<!-- <a -->
-							<!-- href="https://scholar.google.com/scholar?oi=bibs&cluster=11323747332212029825&btnI=1&hl=en" -->
-							<!-- target="_blank">[PDF]</a> -->
+						<span class="conference">[ACM MM 2020, Oral presentation]</span>
+						Compositional Few-Shot Recognition with Primitive Discovery and Enhancing
+						<br>
+						Y. Zou, S. Zhang, K. Chen, Y. Wang, J. Moura, Y. Tian
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[ECCV 2020, Oral presentation (Top 2%)]</span>
+						TCGM: An Information-Theoretic Framework for Semi-Supervised Multi-Modality Learning
+						<br>
+						X. Sun, Y. Xu, P. Cao, Y. Kong*, L. Hu, S. Zhang*, Y.Wang
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[16th European Conference on Computer Vision (ECCV), 2020]</span>
+						Instance Adaptive Self-Training for Unsupervised Domain Adaptation
+						<br>
+						K. Mei, C. Zhu, J. Zou, S. Zhang
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[IJCAI 2020]</span>
+						Generalized Zero-shot Text Classification for ICD Coding
+						<br>
+						C. Song, S. Zhang, N. Sadoughi, P. Xie, and E. Xing
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[AAAI 2020, Oral presentation (Top 3%)]</span>
+						Multi-source Distilling Domain Adaptation
+						<br>
+						S. Zhao#, G. Wang#, S. Zhang#, Y. Gu, Y. Li, Z. Song, P. Xu, R. Hu, H. Chai, K. Keutzer
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[Knowledge-Based Systems (IF 5.921), 2020]</span>
+						Modeling relation paths for knowledge base completion via joint adversarial training
+						<br>
+						C. Li, X. Peng, S. Zhang, H. Peng, P. Yu, M. He, L. Du, L. Wang
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[NeurIPS 2019]</span>
+						Dual Adversarial Semantics-Consistent Network for Generalized Zero-Shot Learning
+						<br>
+						J. Ni, S. Zhang, H, Xie
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[Advances in Neural Information Processing Systems (NeurIPS), 2019]</span>
+						MaCow: Masked Convolutional Generative Flow
+						<br>
+						X. Ma, X. Kong, S. Zhang, E. Hovy
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[NeurIPS 2018]</span>
+						Adversarial Multiple Source Domain Adaptation
+						<br>
+						H. Zhao#, S. Zhang#, G. Wu, J. Costeira, J. Moura, G. J. Gordon
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[CVPR 2018]</span>
+						Learning to Understand Image Blur
+						<br>
+						S. Zhang, X. Shen, Z. Lin, R. Mech, J. Costeira, J. Moura
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICLR, invited to workshop, 2018]</span>
+						Multiple Source Domain Adaptation with Adversarial Learning
+						<br>
+						H. Zhao#, S. Zhang#, G. Wu, J. Costeira, J. Moura, G. J. Gordon
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[IEEE International Conference on Communications (ICC), 2018]</span>
+						A Deep Learning Approach to IoT Authentication
+						<br>
+						R. Das, A. Gadre, S. Zhang, S. Kumar, and J. Moura
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[ICCV 2017]</span>
+						FCN-rLSTM: Deep Spatio-Temporal Neural Networks for Vehicle Counting in City Cameras
+						<br>
+						S. Zhang#, G. Wu#, J. Costeira, J. Moura
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[CVPR 2017]</span>
+						Understanding Traffic Density from Large-Scale Web Camera Data
+						<br>
+						S. Zhang, G. Wu, J. Costeira, J. Moura
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[Advances in Neural Information Processing Systems (NIPS) Workshop, 2016]</span>
+						Block-Coordinate Frank-Wolfe Optimization for Counting Objects in Images
+						<br>
+						F. Xia#, S. Zhang#
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[IEEE International Conference on Image Processing (ICIP), 2015]</span>
+						Traffic Flow from a Low Frame Rate City Camera
+						<br>
+						E.Toropov, L. Gui, S. Zhang, S. Kottur, J. M. F. Moura
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[International Test Conference (ITC), 2014]</span>
+						Bayesian Model Fusion: Enabling Test Cost Reduction of Analog/RF Circuits via Wafer-level Spatial Variation Modeling
+						<br>
+						S. Zhang, X. Li, R.D. Blanton, J. Silva, J. M. Carulli, K. M. Butler
+					</p>
+
+					<div class="contline"></div><p class="contc1">
+						<span class="conference">[IEEE Transactions on Multimedia (TMM IF 6.051), 15.8 (2013)]</span>
+						On a Highly Efficient RDO-based Mode Decision Pipeline Design
+						<br>
+						C. Zhu, H. Jia, S. Zhang, X. Huang, X. Xie and W. Gao
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[The IEEE International Symposium on Circuits and Systems (ISCAS), 2013]</span>
+						A High-throughput Low-latency Arithmetic Encoder Design for HDTV
+						<br>
+						Y. Li, S. Zhang, H. Jia, X. Xie, and W. Gao
+					</p>
+
+					<div class="contline"></div>
+
+					<p class="contc1">
+						<span class="conference">[Visual Communications and Image Processing (VCIP), 2012 IEEE]</span>
+						An efficient foreground-based surveillance video coding scheme in low bit-rate compression
+						<br>
+						S Zhang, K Wei, H Jia, X Xie, W Gao
+					</p>
+
+					<div class="contline"></div>
+					<p class="contc1">
+						<span class="conference">[IEEE International Conference on Multimedia & Expo (ICME), 2012]</span>
+						An Optimized Hardware Video Encoder For AVS With Level C+ Data Reuse Scheme For Motion Estimation
+						<br>
+						K. Wei, R. Zhou, S. Zhang, H. Jia, D. Xie, and W. Gao
+					</p>
+
 					<div class="contline"></div>
 
 

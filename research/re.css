@@ -108,14 +108,14 @@ fill: var(--theme-color);
 .menu {
 	position: absolute;
 	margin:0 auto 0 100px;
-	width: 1100px;
+	width: 1200px;
 	height:auto;
 	float:right;
-	color: #C1BFB5;
+	color: #c1b5b5;
 	font-size:16px;
-    font-weight: 600;
+	font-weight: 600;
 	line-height:150px;
-    font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family: 'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	}
 .menu a{ text-decoration:none;color:#535353;font-size:15px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;} 
 .menu a:hover { text-decoration:none;color:#C1BFB5;font-size:15px;font-family:'Montserrat',"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight:400;border-bottom:1px solid #C1BFB5;}
